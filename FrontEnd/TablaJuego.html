@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+ 
+ <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<table style="width:100%" border="3" id="tabla">
+ <br>
+ <tr>
+ <th>ID</th>
+ <th>Arreglo Numero</th> 
+ </tr>
+ <tr>
+ <td> /</td>
+ <td> /</td> 
+ <td> </td>
+ </tr>
+ <tr>
+ <td> /</td>
+ <td> /</td> 
+ <td> /</td>
+ </tr>
+ <tr>
+ <td> /</td>
+ <td> /</td> 
+ <td> /</td>
+ </tr>
+</table>
+<!--<button id="b2">Obtener</button>-->
+</body>
+<script>
+$("#b2").click(function(){
+ $("td").each(function(){
+ console.log($(this).text())
+ });
+});
+</script>
+</html>
